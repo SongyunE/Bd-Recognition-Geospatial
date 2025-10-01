@@ -1,4 +1,4 @@
-using System; // [Serializable]을 위해 추가
+using System; 
 
 [Serializable]
 public class BuildingData

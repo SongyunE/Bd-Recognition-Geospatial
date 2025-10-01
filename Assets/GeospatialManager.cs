@@ -23,8 +23,6 @@ public class GeospatialManager : MonoBehaviour
     public float detectionRadius = 160.0f;
     public float detectionAngle = 60.0f;
     public float verticalAngleLimit = 60.0f;
-
-    // --- 내부 변수 ---
     private Transform _cameraTransform;
     private BuildingData _currentlyDisplayedBuilding;
     private Dictionary<string, ARGeospatialAnchor> _buildingAnchors = new Dictionary<string, ARGeospatialAnchor>();
@@ -33,8 +31,7 @@ public class GeospatialManager : MonoBehaviour
     {
         _cameraTransform = Camera.main.transform;
         if (buildingInfoPanel != null) buildingInfoPanel.SetActive(false);
-
-        // --- 권한 요청 및 초기화 ---
+        
         StatusText.text = "Checking location permission...";
         if (!Input.location.isEnabledByUser)
         {

@@ -295,16 +295,6 @@ MonoBehaviour:
   buildingNameText: {fileID: 971882797}
   buildingDescriptionText: {fileID: 104506283}
   buildingList:
-  - buildingName: "E\uB3D9(\uC7A5\uC601\uC2E4\uAD00)"
-    description: "\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC"
-    latitude: 35.2493678
-    longitude: 128.9021168
-    altitude: 0
-  - buildingName: "\uC77C\uAC15\uC6D0"
-    description: "\uB514\uC790\uC778\uD559\uACFC"
-    latitude: 35.2499581
-    longitude: 128.9029144
-    altitude: 0
   - buildingName: "\uB0B4 \uBC29 \uD14C\uC2A4\uD2B8"
     description: "\uD14C\uC2A4\uD2B8\uC6A9"
     latitude: 35.2427284
@@ -320,6 +310,11 @@ MonoBehaviour:
       \uAC74\uBB3C"
     latitude: 35.2455583
     longitude: 128.9041469
+    altitude: 0
+  - buildingName: "\uC815\uC9C1\uC720\uBD80 \uAC74\uBB3C"
+    description: "\uD5EC\uC2A4\uB3C4\uC788\uC74C"
+    latitude: 35.2451722
+    longitude: 128.9041489
     altitude: 0
   detectionRadius: 100
   detectionAngle: 45
